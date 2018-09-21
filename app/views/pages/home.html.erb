@@ -1,6 +1,19 @@
-<h1>Aron Rapacioli</h1>
-<div class="banner">
-  <video autoplay muted loop id="myvid">
-    <source src="<%= asset_path 'my_showreel.mp4' %>" type="video/mp4">
-  </video>
+<div class="all">
+  <h1>Aron Rapacioli</h1>
+  <div class="page-container">
+    <div class="main">
+      <div class="video">
+        <video width="800" height="500" autoplay controls muted loop id="myvid">
+          <source src="<%= asset_path 'my_showreel.mp4' %>" type="video/mp4">
+        </video>
+      </div>
+      <div class="about">
+        <h3>About me</h3>
+        <p>My name is Aron, I want to act.</p>
+      </div>
+    </div>
+    <div class="side-bar-will-go-here">
+      Sidebar
+    </div>
+  </div>
 </div>
